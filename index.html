@@ -15,6 +15,7 @@
 
 <body style="background-color:#F6F5FB">
 
+  <!-- Menu de Navegação-->
     <nav class="navbar navbar-expand-lg shadow-sm" style="background-color:#FFFFFF">
         <div class="container-fluid">
           <a class="navbar-brand fs-4 fw-semibold" href="#">
@@ -30,7 +31,7 @@
                     <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#sobre">Sobre</a>
                   </li>
                   <li class="nav-item ps-3">
-                    <a class="nav-link active" id="modal" href="#">Atendimento</a>
+                    <a class="nav-link active" id="modal" href="#">Funcionamento</a>
                   </li>
                 </ul>
           </div>
@@ -44,9 +45,10 @@
         <img src="./assets/images/banner.png" class="img-fluid w-100">
     </section>
 
+    <!--Sessão de Cards-->
     <main class="card-group mb-3">
         <article class="card m-3 border-1 rounded-2">
-            <img src="./assets/images/image1.png" class="card-img-top img-fluid rounded-top" alt="...">
+            <img src="./assets/images/image1.png" class="card-img-top img-fluid rounded" alt="...">
             <div class="card-body">
               <p class="card-text ">Nossa loja de café se encontra em um lugar, 100% fictício, porém caso se sinta interessado pode vir tomar um café conosco em nossa sede em São José dos Campos.</p>
             </div>
@@ -54,7 +56,7 @@
         </article>
 
         <article class="card m-3 border-1 rounded-2"  >
-            <img src="./assets/images/image2.png" class="card-img-top img-fluid rounded-top" alt="...">
+            <img src="./assets/images/image2.png" class="card-img-top img-fluid rounded" alt="...">
             <div class="card-body">
               <p class="card-text">Nossa casa de café é a melhor da região, aqui você tem tudo que precisa, uma boa conversar, bons amigos e um ambiente sem igual. Aproveite, pois melhor que a DNC não existe!</p>
             </div>
@@ -62,7 +64,7 @@
         </article>
 
         <article class="card m-3 border-1 rounded-2" >
-            <img src="./assets/images/image3.png" class="card-img-top img-fluid rounded-top" alt="...">
+            <img src="./assets/images/image3.png" class="card-img-top img-fluid rounded" alt="...">
             <div class="card-body">
               <p class="card-text">Por que a DNC? Porque podem contar sempre com um serviço genuíno, uma atmosfera acolhedora e uma incrível xícara de café, torrado por especialistas e preparado de forma enriquecedora.</p>
             </div>
@@ -70,7 +72,7 @@
         </article>
 
         <article class="card m-3 border-1 rounded-2" >
-            <img src="./assets/images/image4.png" class="card-img-top img-fluid rounded-top" alt="...">
+            <img src="./assets/images/image4.png" class="card-img-top img-fluid rounded" alt="...">
             <div class="card-body">
               <p class="card-text">A escola especialista em formar talentos, com foco em empregabilidade, migração de carreira e aumento de performance.</p>
             </div>
@@ -78,22 +80,43 @@
         </article>
     </main>
 
+    <!-- Modal Atendimento-->
     <div id="modalPlace"></div>
 
-    <div class="modal fade" id="sobre" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content p-5">
-                <div>
-                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <h2 class="text-center fw-light">Quem somos nós? </h2>
-                <p class="p-3 fw-light text-center">Tudo o que fazemos procura respeitar essa conexão, desde nosso compromisso com o café de melhor qualidade do mundo até a forma como nós interagimos com nossos clientes e nossas comunidades para conduzir nosso negócio de modo responsável.
-                </p>       
-        
-                <img src="./assets/images/sobre.png" width="100" class="mx-auto">
-
-            </div>
+    <!-- Modal Sobre Nós-->
+    <div
+      class="modal fade"
+      id="sobre"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      style="font-family: 'Montserrat', sans-serif"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content p-5 text-center">
+          <button
+            type="button"
+            class="btn-close ms-auto"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <div class="modal-header align-self-center">
+            <h1 class="modal-title fs-2 fw-normal">Quem somos nós?</h1>
+          </div>
+          <div class="modal-body fs-4 fw-light">
+            <p class="lh-lg">
+              Tudo o que fazemos procura respeitar essa conexão, desde nosso
+              compromisso com o café de melhor qualidade do mundo até a forma
+              como nós interagimos com nossos clientes e nossas comunidades para
+              conduzir nosso negócio de modo responsável.
+            </p>
+          </div>
+          <img
+            src="assets/images/sobre.png"
+            class="w-20 align-self-center"
+          />
         </div>
+      </div>
     </div>
     <script src="script.js"></script>
 </body>

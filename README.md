@@ -1,15 +1,16 @@
 ## DNC Coffee Project :coffee:
 
-<p> 
+<p> DNC Coffee has proposed to make some changes in their website so it can be even more user friendly! 
+The Bootstrap model is already designed so you can upgrade it!</p>
 
-## Goals:
+  ## <strong>Goals</strong>:
 <ul>
-  <li>:heavy_check_mark:Build a modal from scratch.</li>
-  <li>:heavy_check_mark:Make a button appear when the user interacts with the cards.</li>
-  <li>:heavy_check_mark:Build a function to open and close the modal.</li>
+  <li>Build a modal from scratch. :heavy_check_mark:</li>
+  <li>Make a button appear when the user interacts with the cards. :heavy_check_mark:</li>
+  <li>Build a function to open and close the modal. :heavy_check_mark:</li> 
 </ul>
 
-## Technologies used:
+## <strong>Technologies used</strong>:
 <ul>
   <li>Bootstrap</li>
   <li>JavaScript</li>

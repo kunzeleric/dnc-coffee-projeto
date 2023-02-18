@@ -10,7 +10,7 @@ The Bootstrap model is already designed so you can upgrade it!</p>
   <li>Build a function to open and close the modal. :heavy_check_mark:</li> 
 </ul>
 
-## <strong>Technologies used</strong>:
+## :computer:<strong>Technologies used</strong>:
 <ul>
   <li>Bootstrap</li>
   <li>JavaScript</li>
